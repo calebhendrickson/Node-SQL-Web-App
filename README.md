@@ -12,7 +12,4 @@ Created with:
   Clients hits "/" endpoint and is prompted to log in. To do this Client must visit /signup and create an entry in users table, 
   on success they will be redirected to "/login" route where they can login and a session will be created for that user. From 
   there they will be redirected to the "/" route to view posts that have been created by users. Clients can visit "/posts" to 
-  create a post and view their post among all other posts.
-  
-  To run application, clone repository and cd into NodeJsExample folder, run npm install, and run npm start.
-  
+  create a post and view their post among all other posts.  
