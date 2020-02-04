@@ -1,0 +1,7 @@
+{
+  "server": "localhost",
+  "database": "calebsdb",
+  "options": {
+    "trustedConnection": true
+  }
+}

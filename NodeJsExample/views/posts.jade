@@ -1,0 +1,23 @@
+extends layout 
+
+block content
+  h1=title
+  form(name="Add user", method="post")
+    div.input
+        span.label Username
+        input(type="text", name="Username")
+    div.input
+        span.label Question
+        textarea(type="text", name="Question")
+    div.actions
+        input(type="submit", value="add post")
+
+  h1= title
+    table(border=1)
+      tr
+        td User Name
+        td Question
+      each post in posts
+        tr
+          td #{post.Username}
+          td #{post.Question}
