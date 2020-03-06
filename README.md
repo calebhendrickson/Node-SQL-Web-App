@@ -7,7 +7,7 @@ Also an exercise in writing modular code and laying out an extensible layered ar
 Created with:
  * Jade view engine, Node.js, Express.js, and SQL Server
   
-**Layered Architecture**
+ * Layered Architecture
 
 
 Features by Layer
